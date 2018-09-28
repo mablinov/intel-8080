@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="xil_defaultlib.kbd_mm_device_tb.wdb" id="1">
+         <top_modules>
+            <top_module name="kbd_mm_device_tb" />
+            <top_module name="mm_device_util" />
+            <top_module name="ps2_util" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="173"></NameColumnWidth>
+      <ValueColumnWidth column_width="63"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject type="logic" fp_name="/kbd_mm_device_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/kbd_mm_device_tb/i">
+      <obj_property name="ElementShortName">i</obj_property>
+      <obj_property name="ObjectShortName">i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/kbd_mm_device_tb/o">
+      <obj_property name="ElementShortName">o</obj_property>
+      <obj_property name="ObjectShortName">o</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/kbd_mm_device_tb/ps2_keycode">
+      <obj_property name="ElementShortName">ps2_keycode</obj_property>
+      <obj_property name="ObjectShortName">ps2_keycode</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/kbd_mm_device_tb/ps2_make">
+      <obj_property name="ElementShortName">ps2_make</obj_property>
+      <obj_property name="ObjectShortName">ps2_make</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/kbd_mm_device_tb/ps2_err">
+      <obj_property name="ElementShortName">ps2_err</obj_property>
+      <obj_property name="ObjectShortName">ps2_err</obj_property>
+   </wvobject>
+</wave_config>

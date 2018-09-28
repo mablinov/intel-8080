@@ -1,0 +1,8 @@
+set_property INIT_00 0x542108e0b [get_cells ramb_inst/ramb64x1_inst_0/RAMB36E1_lower]
+set_property INIT_00 0xfb66cbd50 [get_cells ramb_inst/ramb64x1_inst_1/RAMB36E1_lower]
+set_property INIT_00 0x824880152 [get_cells ramb_inst/ramb64x1_inst_2/RAMB36E1_lower]
+set_property INIT_00 0x10c51040 [get_cells ramb_inst/ramb64x1_inst_3/RAMB36E1_lower]
+set_property INIT_00 0x190c03448 [get_cells ramb_inst/ramb64x1_inst_4/RAMB36E1_lower]
+set_property INIT_00 0x52 [get_cells ramb_inst/ramb64x1_inst_5/RAMB36E1_lower]
+set_property INIT_00 0x522489500 [get_cells ramb_inst/ramb64x1_inst_6/RAMB36E1_lower]
+set_property INIT_00 0x522489500 [get_cells ramb_inst/ramb64x1_inst_7/RAMB36E1_lower]

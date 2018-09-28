@@ -1,0 +1,5 @@
+vhdl xil_defaultlib ../../i8080_alu_util.vhd
+
+vhdl xil_defaultlib ../../txt_util.vhd
+vhdl xil_defaultlib ../tb/i8080_alu_util_tb.vhd
+

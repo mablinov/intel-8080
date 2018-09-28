@@ -1,0 +1,23 @@
+vhdl xil_defaultlib ../../../signals/debouncer.vhd
+vhdl xil_defaultlib ../../../signals/strobe_if_changed.vhd
+
+vhdl xil_defaultlib ../../../ps2/ps2_util.vhd
+vhdl xil_defaultlib ../../../ps2/ps2_bit_rx_strobe.vhd
+vhdl xil_defaultlib ../../../ps2/ps2_shifter.vhd
+vhdl xil_defaultlib ../../../ps2/ps2_byte_parser.vhd
+vhdl xil_defaultlib ../../../ps2/ps2_interface.vhd
+
+vhdl xil_defaultlib ../../txt_util.vhd
+vhdl xil_defaultlib ../../i8080_util.vhd
+vhdl xil_defaultlib ../../i8080_microcode_util.vhd
+vhdl xil_defaultlib ../../i8080_alu_util.vhd
+vhdl xil_defaultlib ../../i8080_alu.vhd
+vhdl xil_defaultlib ../../i8080_microcode.vhd
+vhdl xil_defaultlib ../../i8080_microcode_controller.vhd
+vhdl xil_defaultlib ../../i8080_register_file.vhd
+vhdl xil_defaultlib ../../i8080_core.vhd
+vhdl xil_defaultlib ../../i8080_memory_sim_util.vhd
+vhdl xil_defaultlib ../../i8080_memory_sim.vhd
+
+vhdl xil_defaultlib ../tb/i8080_core_hw_int_tb.vhd
+

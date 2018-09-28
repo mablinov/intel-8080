@@ -1,0 +1,55 @@
+     1 0000 01 25 00	    lxi b, lc0
+     2 0003 11 26 00	    lxi d, lc1
+     3
+     4 			start
+     5 0006 3E 00	    mvi a, 0
+     6
+     7 			add_1
+     8 0008 C6 01	    adi 1
+     9 000A D3 03	    out 3
+    10 000C DA 12 00	    jc inc_lc0
+    11 000F C3 08 00	    jmp add_1
+    12
+    13 			inc_lc0
+    14 0012 0A		    ldax b
+    15 0013 C6 01	    adi 1
+    16 0015 02		    stax b
+    17 0016 DA 1C 00	    jc inc_lc1
+    18 0019 C3 06 00	    jmp start
+    19
+    20 			inc_lc1
+    21 001C 1A		    ldax d
+    22 001D C6 01	    adi 1
+    23 001F 12		    stax d
+    24 0020 D3 02	    out 2
+    25 0022 C3 06 00	    jmp start
+    26
+    27 			lc0
+    28 0025		    db 0
+            00 
+    29 			lc1
+    30 0026		    db 0
+            00 
+
+
+*******************************************************************************
+                                 Symbols table
+*******************************************************************************
+
+Names		Types	Values
+-----		-----	------
+start		Label	00006h
+add_1		Label	00008h
+inc_lc0		Label	00012h
+inc_lc1		Label	0001Ch
+lc0		Label	00025h
+lc1		Label	00026h
+
+Statistics
+----------
+"Name"	= 0
+"EQU"	= 0
+"SET"	= 0
+Labels	= 6
+
+

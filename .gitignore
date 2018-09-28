@@ -1,0 +1,17 @@
+impl/*/hs_err_pid*.log
+impl/*/usage_statistics_webtalk.*
+impl/*/vivado.jou
+impl/*/vivado.log
+impl/*/vivado_*.backup.*
+impl/*/.Xil
+impl/*/vivado_pid*.zip
+impl/*/vivado_pid*.str
+
+sim/.Xil
+sim/vivado_pid*.str
+sim/webtalk.*
+sim/webtalk_*.backup.*
+sim/xelab.*
+sim/xsim.dir
+sim/xsim.*
+sim/xsim_*.backup.*

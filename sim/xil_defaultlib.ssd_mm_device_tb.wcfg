@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="xil_defaultlib.ssd_mm_device_tb.wdb" id="1">
+         <top_modules>
+            <top_module name="mm_device_util" />
+            <top_module name="ssd_mm_device_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="6631fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="188"></NameColumnWidth>
+      <ValueColumnWidth column_width="162"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject type="logic" fp_name="/ssd_mm_device_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider7" type="divider">
+      <obj_property name="label">interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ssd_mm_device_tb/uut/i">
+      <obj_property name="ElementShortName">i</obj_property>
+      <obj_property name="ObjectShortName">i</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ssd_mm_device_tb/uut/o">
+      <obj_property name="ElementShortName">o</obj_property>
+      <obj_property name="ObjectShortName">o</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ssd_mm_device_tb/uut/b3">
+      <obj_property name="ElementShortName">b3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b3[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ssd_mm_device_tb/uut/b2">
+      <obj_property name="ElementShortName">b2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b2[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ssd_mm_device_tb/uut/b1">
+      <obj_property name="ElementShortName">b1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ssd_mm_device_tb/uut/b0">
+      <obj_property name="ElementShortName">b0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b0[7:0]</obj_property>
+   </wvobject>
+</wave_config>

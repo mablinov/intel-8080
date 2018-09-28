@@ -1,0 +1,8 @@
+vhdl xil_defaultlib ../../txt_util.vhd
+vhdl xil_defaultlib ../../i8080_util.vhd
+
+vhdl xil_defaultlib ../../i8080_northbridge.vhd
+
+vhdl xil_defaultlib ../tb/i8080_nb_inst_nop.vhd
+vhdl xil_defaultlib ../tb/i8080_nb_inst_nop_tb.vhd
+

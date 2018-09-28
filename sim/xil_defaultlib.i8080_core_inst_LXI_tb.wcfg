@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="xil_defaultlib.i8080_core_inst_LXI_tb.wdb" id="1">
+         <top_modules>
+            <top_module name="i8080_alu_util" />
+            <top_module name="i8080_core_inst_LXI_tb" />
+            <top_module name="i8080_memory_sim_util" />
+            <top_module name="i8080_microcode_util" />
+            <top_module name="i8080_util" />
+            <top_module name="txt_util" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1483580000fs"></ZoomStartTime>
+      <ZoomEndTime time="1489980001fs"></ZoomEndTime>
+      <Cursor1Time time="1498530000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="188"></NameColumnWidth>
+      <ValueColumnWidth column_width="160"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="48" />
+   <wvobject type="logic" fp_name="/i8080_core_inst_LXI_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider61" type="divider">
+      <obj_property name="label">memory contents</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/mem/memory">
+      <obj_property name="ElementShortName">memory[0:255][7:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[0:255][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/mem/port_memory">
+      <obj_property name="ElementShortName">port_memory[0:255][7:0]</obj_property>
+      <obj_property name="ObjectShortName">port_memory[0:255][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider82" type="divider">
+      <obj_property name="label">memory interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/mem/addr">
+      <obj_property name="ElementShortName">addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/i8080_core_inst_LXI_tb/mem/en">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/i8080_core_inst_LXI_tb/mem/we">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/i8080_core_inst_LXI_tb/mem/port_en">
+      <obj_property name="ElementShortName">port_en</obj_property>
+      <obj_property name="ObjectShortName">port_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/mem/di">
+      <obj_property name="ElementShortName">di[7:0]</obj_property>
+      <obj_property name="ObjectShortName">di[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/mem/do">
+      <obj_property name="ElementShortName">do[7:0]</obj_property>
+      <obj_property name="ObjectShortName">do[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/i8080_core_inst_LXI_tb/mem/ready">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider180" type="divider">
+      <obj_property name="label">cpu interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/fin">
+      <obj_property name="ElementShortName">fin</obj_property>
+      <obj_property name="ObjectShortName">fin</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/fout">
+      <obj_property name="ElementShortName">fout</obj_property>
+      <obj_property name="ObjectShortName">fout</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="divider102" type="divider">
+      <obj_property name="label">cpu state</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/reg_di">
+      <obj_property name="ElementShortName">reg_di[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_di[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/reg_ir">
+      <obj_property name="ElementShortName">reg_ir[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_ir[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/reg_pc_buffer">
+      <obj_property name="ElementShortName">reg_pc_buffer[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_pc_buffer[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/reg_pc">
+      <obj_property name="ElementShortName">reg_pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_pc[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/addr_buffer">
+      <obj_property name="ElementShortName">addr_buffer[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_buffer[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/addr">
+      <obj_property name="ElementShortName">addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/i8080_core_inst_LXI_tb/cpu/reg_ie">
+      <obj_property name="ElementShortName">reg_ie</obj_property>
+      <obj_property name="ObjectShortName">reg_ie</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/reg_flags">
+      <obj_property name="ElementShortName">reg_flags[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_flags[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/reg_do">
+      <obj_property name="ElementShortName">reg_do[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_do[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/rp_tmp">
+      <obj_property name="ElementShortName">rp_tmp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rp_tmp[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider331" type="divider">
+      <obj_property name="label">register file</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/register_file/cs">
+      <obj_property name="ElementShortName">cs</obj_property>
+      <obj_property name="ObjectShortName">cs</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/rf_di">
+      <obj_property name="ElementShortName">rf_di[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_di[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/rf_do">
+      <obj_property name="ElementShortName">rf_do[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_do[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/register_file/rf">
+      <obj_property name="ElementShortName">rf[0:8][7:0]</obj_property>
+      <obj_property name="ObjectShortName">rf[0:8][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider105" type="divider">
+      <obj_property name="label">control signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/ucode_ctrl/cs">
+      <obj_property name="ElementShortName">cs</obj_property>
+      <obj_property name="ObjectShortName">cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider106" type="divider">
+      <obj_property name="label">instruction execution</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/i8080_core_inst_LXI_tb/cpu/curr_inst">
+      <obj_property name="ElementShortName">curr_inst</obj_property>
+      <obj_property name="ObjectShortName">curr_inst</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/i8080_core_inst_LXI_tb/cpu/ucode_ctrl/current_ui">
+      <obj_property name="ElementShortName">current_ui</obj_property>
+      <obj_property name="ObjectShortName">current_ui</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/i8080_core_inst_LXI_tb/cpu/ucode_ctrl/next_ui">
+      <obj_property name="ElementShortName">next_ui</obj_property>
+      <obj_property name="ObjectShortName">next_ui</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/ucode_ctrl/cpuinfo">
+      <obj_property name="ElementShortName">cpuinfo</obj_property>
+      <obj_property name="ObjectShortName">cpuinfo</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider175" type="divider">
+      <obj_property name="label">alu</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/alu_inst/cs">
+      <obj_property name="ElementShortName">cs</obj_property>
+      <obj_property name="ObjectShortName">cs</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/alu_inst/lhs">
+      <obj_property name="ElementShortName">lhs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lhs[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/alu_inst/rhs">
+      <obj_property name="ElementShortName">rhs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rhs[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/alu_inst/result">
+      <obj_property name="ElementShortName">result[7:0]</obj_property>
+      <obj_property name="ObjectShortName">result[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/alu_inst/reg_lhs">
+      <obj_property name="ElementShortName">reg_lhs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_lhs[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/alu_inst/reg_rhs">
+      <obj_property name="ElementShortName">reg_rhs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_rhs[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/alu_inst/reg_result">
+      <obj_property name="ElementShortName">reg_result[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_result[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/alu_inst/flags">
+      <obj_property name="ElementShortName">flags</obj_property>
+      <obj_property name="ObjectShortName">flags</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_LXI_tb/cpu/alu_inst/flagr">
+      <obj_property name="ElementShortName">flagr</obj_property>
+      <obj_property name="ObjectShortName">flagr</obj_property>
+   </wvobject>
+</wave_config>

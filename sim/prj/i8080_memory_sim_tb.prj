@@ -1,0 +1,7 @@
+vhdl xil_defaultlib ../../txt_util.vhd
+vhdl xil_defaultlib ../../i8080_util.vhd
+vhdl xil_defaultlib ../../i8080_memory_sim_util.vhd
+vhdl xil_defaultlib ../../i8080_memory_sim.vhd
+
+vhdl xil_defaultlib ../tb/i8080_memory_sim_tb.vhd
+

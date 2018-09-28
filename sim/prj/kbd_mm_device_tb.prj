@@ -1,0 +1,9 @@
+vhdl xil_defaultlib ../../../ps2/ps2_util.vhd
+vhdl xil_defaultlib ../../../ps2/ps2_bit_rx_strobe.vhd
+vhdl xil_defaultlib ../../../ps2/ps2_shifter.vhd
+vhdl xil_defaultlib ../../../ps2/ps2_byte_parser.vhd
+vhdl xil_defaultlib ../../../ps2/ps2_interface.vhd
+
+vhdl xil_defaultlib ../../mm_device_util.vhd
+vhdl xil_defaultlib ../../kbd_mm_device.vhd
+vhdl xil_defaultlib ../tb/kbd_mm_device_tb.vhd

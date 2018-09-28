@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="xil_defaultlib.i8080_alu_tb.wdb" id="1">
+         <top_modules>
+            <top_module name="i8080_alu_tb" />
+            <top_module name="i8080_alu_util" />
+            <top_module name="i8080_util" />
+            <top_module name="txt_util" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="164158686fs"></ZoomStartTime>
+      <ZoomEndTime time="284541724fs"></ZoomEndTime>
+      <Cursor1Time time="235137000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="188"></NameColumnWidth>
+      <ValueColumnWidth column_width="110"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject type="other" fp_name="/i8080_alu_tb/tv">
+      <obj_property name="ElementShortName">tv</obj_property>
+      <obj_property name="ObjectShortName">tv</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider216" type="divider">
+      <obj_property name="label">uut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/i8080_alu_tb/uut/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_alu_tb/uut/cs">
+      <obj_property name="ElementShortName">cs</obj_property>
+      <obj_property name="ObjectShortName">cs</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_alu_tb/uut/lhs">
+      <obj_property name="ElementShortName">lhs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lhs[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_alu_tb/uut/rhs">
+      <obj_property name="ElementShortName">rhs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rhs[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_alu_tb/uut/result">
+      <obj_property name="ElementShortName">result[7:0]</obj_property>
+      <obj_property name="ObjectShortName">result[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_alu_tb/uut/flags">
+      <obj_property name="ElementShortName">flags</obj_property>
+      <obj_property name="ObjectShortName">flags</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/i8080_alu_tb/uut/flags.sign">
+         <obj_property name="ElementShortName">.sign</obj_property>
+         <obj_property name="ObjectShortName">.sign</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/i8080_alu_tb/uut/flags.zero">
+         <obj_property name="ElementShortName">.zero</obj_property>
+         <obj_property name="ObjectShortName">.zero</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/i8080_alu_tb/uut/flags.aux_carry">
+         <obj_property name="ElementShortName">.aux_carry</obj_property>
+         <obj_property name="ObjectShortName">.aux_carry</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/i8080_alu_tb/uut/flags.parity">
+         <obj_property name="ElementShortName">.parity</obj_property>
+         <obj_property name="ObjectShortName">.parity</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/i8080_alu_tb/uut/flags.carry">
+         <obj_property name="ElementShortName">.carry</obj_property>
+         <obj_property name="ObjectShortName">.carry</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/i8080_alu_tb/uut/flags.sign">
+         <obj_property name="ElementShortName">.sign</obj_property>
+         <obj_property name="ObjectShortName">.sign</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/i8080_alu_tb/uut/flags.zero">
+         <obj_property name="ElementShortName">.zero</obj_property>
+         <obj_property name="ObjectShortName">.zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/i8080_alu_tb/uut/flags.aux_carry">
+         <obj_property name="ElementShortName">.aux_carry</obj_property>
+         <obj_property name="ObjectShortName">.aux_carry</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/i8080_alu_tb/uut/flags.parity">
+         <obj_property name="ElementShortName">.parity</obj_property>
+         <obj_property name="ObjectShortName">.parity</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/i8080_alu_tb/uut/flags.carry">
+         <obj_property name="ElementShortName">.carry</obj_property>
+         <obj_property name="ObjectShortName">.carry</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_alu_tb/uut/reg_lhs">
+      <obj_property name="ElementShortName">reg_lhs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_lhs[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_alu_tb/uut/reg_rhs">
+      <obj_property name="ElementShortName">reg_rhs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_rhs[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_alu_tb/uut/reg_result">
+      <obj_property name="ElementShortName">reg_result[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_result[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

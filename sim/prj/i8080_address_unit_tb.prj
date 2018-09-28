@@ -1,0 +1,7 @@
+vhdl xil_defaultlib ../../txt_util.vhd
+vhdl xil_defaultlib ../../i8080_util.vhd
+
+vhdl xil_defaultlib ../../i8080_address_unit.vhd
+
+vhdl xil_defaultlib ../tb/i8080_address_unit_tb.vhd
+

@@ -1,0 +1,6 @@
+vhdl xil_defaultlib ../../../ram/ramb64x1.vhd
+vhdl xil_defaultlib ../../../ram/ramb64x8.vhd
+
+vhdl xil_defaultlib ../../mm_device_util.vhd
+vhdl xil_defaultlib ../../sysmem_device.vhd
+vhdl xil_defaultlib ../tb/sysmem_device_tb.vhd

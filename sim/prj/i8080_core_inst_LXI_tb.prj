@@ -1,0 +1,15 @@
+vhdl xil_defaultlib ../../txt_util.vhd
+vhdl xil_defaultlib ../../i8080_util.vhd
+vhdl xil_defaultlib ../../i8080_microcode_util.vhd
+vhdl xil_defaultlib ../../i8080_alu_util.vhd
+vhdl xil_defaultlib ../../i8080_alu.vhd
+vhdl xil_defaultlib ../../i8080_microcode.vhd
+vhdl xil_defaultlib ../../i8080_microcode_controller.vhd
+vhdl xil_defaultlib ../../i8080_register_file.vhd
+vhdl xil_defaultlib ../../i8080_core.vhd
+
+vhdl xil_defaultlib ../../i8080_memory_sim_util.vhd
+vhdl xil_defaultlib ../../i8080_memory_sim.vhd
+
+vhdl xil_defaultlib ../tb/i8080_core_inst_LXI_tb.vhd
+

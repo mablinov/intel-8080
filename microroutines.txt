@@ -1,0 +1,58 @@
+
+when fetch_inst_0 =>
+	-- Fetch the instruction at PC
+	cs.m.op := Read;
+	cs.m.addr := PC;
+
+when fetch_inst_1 =>
+	-- Remember to enable the latch register
+	cs.m.regce := '1';
+
+when fetch_inst_2 =>
+	-- Update PC to point to next instruction
+	cs.r.pc.op := LoadNextInstructionAddress;
+	
+	-- Jump to corresponding microroutine
+	cs.uc.op := ExecInstruction;
+
+
+
+when inst_lxi_0 =>
+	-- We need to load the two data byte operands.
+	-- The low byte is pc-2, and high byte is pc-1.
+	cs.m.op := Read;
+	
+	cs.m.addr := PC;
+	cs.m.addr_offset := -2;
+	
+when inst_lxi_1 =>
+	-- Register for low byte
+	cs.m.regce := '1';
+
+when inst_lxi_2 =>
+	-- Load low byte into low register
+	set_register_ce_LXI_lo(inst_reg, cs.r);
+
+when inst_lxi_3 =>
+	-- Now we need high byte.
+	-- Issue read instruction for high byte
+	cs.m.op := Read;
+	
+	cs.m.addr := PC;
+	cs.m.addr_offset := -1;
+	
+when inst_lxi_4 =>
+	-- Register for high byte
+	cs.m.regce := '1';
+
+when inst_lxi_5 =>
+	-- Load high byte into high register
+	set_register_ce_LXI_hi(inst_reg, cs.r);
+
+	-- Fetch next instruction
+	cs.uc.op := FetchInstruction;
+
+when others =>
+	nul;
+
+end case;

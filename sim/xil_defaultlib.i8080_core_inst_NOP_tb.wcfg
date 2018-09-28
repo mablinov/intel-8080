@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="xil_defaultlib.i8080_core_inst_NOP_tb.wdb" id="1">
+         <top_modules>
+            <top_module name="i8080_core_inst_NOP_tb" />
+            <top_module name="i8080_memory_sim_util" />
+            <top_module name="i8080_util" />
+            <top_module name="txt_util" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="133800001fs"></ZoomEndTime>
+      <Cursor1Time time="21700000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="188"></NameColumnWidth>
+      <ValueColumnWidth column_width="104"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject type="logic" fp_name="/i8080_core_inst_NOP_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider61" type="divider">
+      <obj_property name="label">iface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_NOP_tb/mem/fout">
+      <obj_property name="ElementShortName">fout</obj_property>
+      <obj_property name="ObjectShortName">fout</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_NOP_tb/mem/fin">
+      <obj_property name="ElementShortName">fin</obj_property>
+      <obj_property name="ObjectShortName">fin</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider64" type="divider">
+      <obj_property name="label">memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_NOP_tb/mem/memory">
+      <obj_property name="ElementShortName">memory[0:255][7:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[0:255][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_NOP_tb/mem/port_memory">
+      <obj_property name="ElementShortName">port_memory[0:255][7:0]</obj_property>
+      <obj_property name="ObjectShortName">port_memory[0:255][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_NOP_tb/mem/do_reg">
+      <obj_property name="ElementShortName">do_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">do_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_NOP_tb/mem/mem_intf">
+      <obj_property name="ElementShortName">mem_intf</obj_property>
+      <obj_property name="ObjectShortName">mem_intf</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/i8080_core_inst_NOP_tb/mem/mem_op_rq">
+      <obj_property name="ElementShortName">mem_op_rq</obj_property>
+      <obj_property name="ObjectShortName">mem_op_rq</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider102" type="divider">
+      <obj_property name="label">cpu state</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_NOP_tb/cpu/reg_inst">
+      <obj_property name="ElementShortName">reg_inst[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_inst[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_NOP_tb/cpu/reg_pc">
+      <obj_property name="ElementShortName">reg_pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_pc[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_NOP_tb/cpu/ucode_ctrl/cpuinfo">
+      <obj_property name="ElementShortName">cpuinfo</obj_property>
+      <obj_property name="ObjectShortName">cpuinfo</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider105" type="divider">
+      <obj_property name="label">control signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/i8080_core_inst_NOP_tb/cpu/ucode_ctrl/cs">
+      <obj_property name="ElementShortName">cs</obj_property>
+      <obj_property name="ObjectShortName">cs</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/i8080_core_inst_NOP_tb/cpu/ucode_ctrl/cs.m">
+         <obj_property name="ElementShortName">.m</obj_property>
+         <obj_property name="ObjectShortName">.m</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="other" fp_name="/i8080_core_inst_NOP_tb/cpu/ucode_ctrl/cs.m.op">
+            <obj_property name="ElementShortName">.op</obj_property>
+            <obj_property name="ObjectShortName">.op</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="array" fp_name="/i8080_core_inst_NOP_tb/cpu/ucode_ctrl/cs.a">
+         <obj_property name="ElementShortName">.a</obj_property>
+         <obj_property name="ObjectShortName">.a</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="other" fp_name="/i8080_core_inst_NOP_tb/cpu/ucode_ctrl/cs.a.mode">
+            <obj_property name="ElementShortName">.mode</obj_property>
+            <obj_property name="ObjectShortName">.mode</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="other" fp_name="/i8080_core_inst_NOP_tb/cpu/ucode_ctrl/cs.a.subtrahend">
+            <obj_property name="ElementShortName">.subtrahend</obj_property>
+            <obj_property name="ObjectShortName">.subtrahend</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="array" fp_name="/i8080_core_inst_NOP_tb/cpu/ucode_ctrl/cs.uc">
+         <obj_property name="ElementShortName">.uc</obj_property>
+         <obj_property name="ObjectShortName">.uc</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="other" fp_name="/i8080_core_inst_NOP_tb/cpu/ucode_ctrl/cs.uc.op">
+            <obj_property name="ElementShortName">.op</obj_property>
+            <obj_property name="ObjectShortName">.op</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="array" fp_name="/i8080_core_inst_NOP_tb/cpu/ucode_ctrl/cs.r">
+         <obj_property name="ElementShortName">.r</obj_property>
+         <obj_property name="ObjectShortName">.r</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/i8080_core_inst_NOP_tb/cpu/ucode_ctrl/cs.r.pc">
+            <obj_property name="ElementShortName">.pc</obj_property>
+            <obj_property name="ObjectShortName">.pc</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject type="other" fp_name="/i8080_core_inst_NOP_tb/cpu/ucode_ctrl/cs.r.pc.load">
+               <obj_property name="ElementShortName">.load</obj_property>
+               <obj_property name="ObjectShortName">.load</obj_property>
+               <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="array" fp_name="/i8080_core_inst_NOP_tb/cpu/ucode_ctrl/cs.r.ir">
+            <obj_property name="ElementShortName">.ir</obj_property>
+            <obj_property name="ObjectShortName">.ir</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject type="other" fp_name="/i8080_core_inst_NOP_tb/cpu/ucode_ctrl/cs.r.ir.load">
+               <obj_property name="ElementShortName">.load</obj_property>
+               <obj_property name="ObjectShortName">.load</obj_property>
+               <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider106" type="divider">
+      <obj_property name="label">microinstruction</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/i8080_core_inst_NOP_tb/cpu/ucode_ctrl/current_ui">
+      <obj_property name="ElementShortName">current_ui</obj_property>
+      <obj_property name="ObjectShortName">current_ui</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/i8080_core_inst_NOP_tb/cpu/ucode_ctrl/next_ui">
+      <obj_property name="ElementShortName">next_ui</obj_property>
+      <obj_property name="ObjectShortName">next_ui</obj_property>
+   </wvobject>
+</wave_config>
